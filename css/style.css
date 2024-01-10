@@ -1,0 +1,81 @@
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-links ul{
+    color: white;
+}
+
+.navbar-links ul li{
+    transition: color 0.5s,border 0.5s;
+    padding-inline: 12px;
+   
+}
+
+.navbar-links ul li:hover{
+    color: #009AD8;
+    border: 1px solid #009AD8; 
+}
+
+.active-link{
+    color: #009AD8;
+    border: 1px solid #009AD8; 
+}
+
+.inbut-bar button{
+    right: 90px;
+    top: 1px;
+}
+
+i.btn{
+    background-color: #1E202B;
+    color: #009AD8;
+    transition: color 0.3s,background-color 0.3s;
+    padding: 10px;
+}
+
+i.btn:hover{
+color: white;
+background-color: #009AD8;
+}
+
+.cover-pic{
+    background-image: url(../img/banner.png);
+    background-size: cover;
+    background-position: center;
+    height:320px;
+}
+
+.cover-pic .inbut-bar{
+top: 30%;
+
+}
+
+
+.weather{
+    bottom: 100px;
+    right: 30px;
+}
+
+.day1,
+.day2,
+.day3{
+    height: 130px;
+}
+
+.day1 img{
+    width: 30%;
+   
+}
+
+.day2 img,
+.day3 img{
+    width: 50px;
+    position: relative;
+    left: 42%;
+   }
+
+.form-control:focus {
+    color: white;
+}
